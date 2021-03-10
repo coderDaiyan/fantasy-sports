@@ -11,7 +11,9 @@ function App() {
     <Router>
       <Home />
       <Switch>
-        <Route exact path="/"></Route>
+        <Route exact path="/">
+          <AllTeams />
+        </Route>
         <Route path="/home">
           <AllTeams />
         </Route>

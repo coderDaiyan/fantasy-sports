@@ -1,0 +1,90 @@
+body {
+  background-color: wheat;
+}
+.team-logo {
+  width: 190px;
+  position: absolute;
+  top: 110px;
+  left: 550px;
+  padding: 20px;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+.team-details {
+  width: 100%;
+  height: 700px;
+}
+.team-info-card {
+  background-color: #ed4c67;
+  width: 800px;
+  height: 250px;
+  padding: 20px;
+  margin-left: 270px;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.team-description {
+  padding: 40px;
+}
+.gender-img {
+  width: 300px;
+}
+.social-icons {
+  font-size: 45px;
+  text-align: center;
+}
+.insta {
+  color: hotpink;
+}
+.black {
+  width: 1349px;
+  height: 280px;
+  background: rgba(0, 0, 0, 0.692);
+  position: absolute;
+  top: 56px;
+}
+
+@media (max-width: 688px) {
+  .team-logo {
+    width: 150px;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+  }
+  .team-info-card {
+    width: 85%;
+    margin-left: 40px;
+  }
+  .gender-img {
+    width: 150px;
+  }
+  .black {
+    height: 230px;
+  }
+}
+@media (max-width: 500px) {
+  .team-logo {
+    width: 150px;
+    position: absolute;
+    top: 100px;
+    left: 160px;
+  }
+  .team-info-card {
+    width: 85%;
+    margin-left: 40px;
+  }
+  .team-info-card h1,
+  h4 {
+    font-size: 20px;
+  }
+  .gender-img {
+    width: 150px;
+  }
+  .team-details {
+    height: 1200px;
+  }
+}
