@@ -1,0 +1,17 @@
+.all-teams {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  background-color: #222f3e;
+}
+.stadium-bg {
+  width: 1349px;
+  height: 280px;
+}
+.stadium h2 {
+  position: absolute;
+  top: 162px;
+  left: 550px;
+  font-size: 45px;
+  color: white;
+}
