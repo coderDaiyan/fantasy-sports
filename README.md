@@ -1,6 +1,6 @@
-# Soccer-Mania
+# Fantasy-Sports
 
-Soccer mania is a website where you can find some teams of a League and See their Details
+Fantasy sports is a website where you can find some teams of a League and See their Details
 
 ## Technologies
 
