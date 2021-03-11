@@ -41,6 +41,8 @@ const TeamDetails = () => {
     strTeamBanner,
   } = teamDetails;
 
+  document.title = `Team ${strTeam}`;
+
   return (
     <>
       <div className="stadium">
@@ -79,17 +81,17 @@ const TeamDetails = () => {
         <div className="team-description">
           <p>{strDescriptionEN}</p>
           <div className="social-icons mt-5">
-            <a target="blank_" href={`https://${strFacebook}`}>
+            <a target="blank_" href={strFacebook && `https://${strFacebook}`}>
               <FontAwesomeIcon className="me-5" icon={faFacebook} />
             </a>
-            <a target="blank_" href={`https://${strTwitter}`}>
+            <a target="blank_" href={strTwitter && `https://${strTwitter}`}>
               <FontAwesomeIcon
                 style={{ color: "#4C9BE5" }}
                 className="me-5"
                 icon={faTwitter}
               />
             </a>
-            <a target="blank_" href={`https://${strInstagram}`}>
+            <a target="blank_" href={strInstagram && `https://${strInstagram}`}>
               <FontAwesomeIcon className="insta" icon={faInstagram} />
             </a>
           </div>
