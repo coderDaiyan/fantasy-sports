@@ -9,7 +9,7 @@ const Home = () => {
           <a href="/" className="navbar-brand">
             Soccer-Mania
           </a>
-          <div class="d-flex">
+          <div className="d-flex">
             <ul className="navbar nav">
               <li>
                 <Link

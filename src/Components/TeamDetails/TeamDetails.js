@@ -9,6 +9,7 @@ import {
   faMars,
   faFutbol,
   faCalendarAlt,
+  faFlag,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebook,
@@ -39,9 +40,8 @@ const TeamDetails = () => {
     strTwitter,
     strInstagram,
     strTeamBanner,
+    strCountry,
   } = teamDetails;
-
-  document.title = `Team ${strTeam}`;
 
   return (
     <>
@@ -60,6 +60,10 @@ const TeamDetails = () => {
             <h4>
               <FontAwesomeIcon className="me-2" icon={faCalendarAlt} />
               Founded: {intFormedYear}
+            </h4>
+            <h4>
+              <FontAwesomeIcon className="me-2" icon={faFlag} />
+              Country: {strCountry}
             </h4>
             <h4>
               <FontAwesomeIcon className="me-2" icon={faFutbol} />

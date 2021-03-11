@@ -14,7 +14,7 @@ const AllTeams = () => {
       .then((data) => setTeams(data.teams));
   }, []);
 
-  const first10 = teams.slice(0, 15);
+  const first15 = teams.slice(0, 15);
   return (
     <>
       <div className="stadium">
@@ -22,8 +22,8 @@ const AllTeams = () => {
         <h2>Soccer Mania</h2>
       </div>
       <div className="all-teams">
-        {first10.map((team) => (
-          <Team team={team} />
+        {first15.map((team) => (
+          <Team key={team.idTeam} team={team} />
         ))}
       </div>
     </>
