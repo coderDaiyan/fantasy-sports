@@ -10,7 +10,7 @@
 }
 .stadium h2 {
   position: absolute;
-  top: 162px;
+  top: 120px;
   left: 550px;
   font-size: 45px;
   color: white;
@@ -23,7 +23,7 @@
   }
   .stadium h2 {
     position: absolute;
-    top: 150px;
+    top: 80px;
     left: 350px;
   }
   .all-teams {
@@ -40,8 +40,8 @@
   }
   .stadium h2 {
     position: absolute;
-    top: 150px;
-    left: 180px;
+    top: 80px;
+    left: 105px;
     font-size: 45px;
     color: white;
   }

@@ -1,7 +1,6 @@
 import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./Components/Home/Home";
 import NotFound from "./Components/NotFound/NotFound";
 import AllTeams from "./Components/AllTeams/AllTeams";
 import TeamDetails from "./Components/TeamDetails/TeamDetails";
@@ -9,7 +8,6 @@ import TeamDetails from "./Components/TeamDetails/TeamDetails";
 function App() {
   return (
     <Router>
-      <Home />
       <Switch>
         <Route exact path="/">
           <AllTeams />
