@@ -64,6 +64,7 @@ body {
   }
   .black {
     height: 230px;
+    width: 652px;
   }
 }
 @media (max-width: 500px) {
@@ -86,5 +87,8 @@ body {
   }
   .team-details {
     height: 1200px;
+  }
+  .black {
+    width: 480px;
   }
 }

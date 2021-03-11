@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import "../AllTeams/AllTeams.css";
 import "./TeamDetails.css";
-import StadiumBg from "../../Assets/stedium2.jpg";
 import Female from "../../Assets/female.png";
 import Male from "../../Assets/male.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -39,14 +38,14 @@ const TeamDetails = () => {
     strFacebook,
     strTwitter,
     strInstagram,
-    strStadiumThumb,
+    strTeamBanner,
   } = teamDetails;
 
   return (
     <>
       <div className="stadium">
         <div className="">
-          <img className="stadium-bg" src={strStadiumThumb} alt="" />
+          <img className="stadium-bg" src={strTeamBanner} alt="" />
           <div className="black stadium-bg"></div>
         </div>
         <img className="team-logo" src={strTeamBadge} alt="" />
@@ -80,10 +79,10 @@ const TeamDetails = () => {
         <div className="team-description">
           <p>{strDescriptionEN}</p>
           <div className="social-icons mt-5">
-            <a target="blank_" href={strFacebook}>
+            <a target="blank_" href={`https://${strFacebook}`}>
               <FontAwesomeIcon className="me-5" icon={faFacebook} />
             </a>
-            <a target="blank_" href={strTwitter}>
+            <a target="blank_" href={`https://${strTwitter}`}>
               <FontAwesomeIcon
                 style={{ color: "#4C9BE5" }}
                 className="me-5"
