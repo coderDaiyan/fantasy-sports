@@ -46,7 +46,7 @@ const TeamDetails = () => {
   return (
     <>
       <div className="stadium">
-        <div className="">
+        <div className="banner">
           <img className="stadium-bg" src={strTeamBanner} alt="" />
           <div className="black stadium-bg"></div>
         </div>

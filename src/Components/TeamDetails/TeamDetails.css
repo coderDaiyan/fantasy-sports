@@ -47,7 +47,28 @@ body {
   position: absolute;
   top: 56px;
 }
-
+@media (max-width: 992px) {
+  .team-logo {
+    width: 150px;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+  }
+  .team-info-card {
+    width: 65%;
+    height: 320px;
+    padding: 30px;
+    margin-left: 40px;
+    display: block;
+  }
+  .gender-img {
+    width: 150px;
+  }
+  .black {
+    height: 230px;
+    width: 100%;
+  }
+}
 @media (max-width: 688px) {
   .team-logo {
     width: 150px;
@@ -67,7 +88,7 @@ body {
   }
   .black {
     height: 230px;
-    width: 620px;
+    width: 100%;
   }
 }
 @media (max-width: 500px) {
