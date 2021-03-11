@@ -69,6 +69,28 @@ body {
     width: 100%;
   }
 }
+@media (max-width: 1032px) {
+  .team-logo {
+    width: 150px;
+    position: absolute;
+    top: 50px;
+    left: 450px;
+  }
+  .team-info-card {
+    width: 65%;
+    height: 320px;
+    padding: 20px;
+    margin-left: 200px;
+    display: flex;
+  }
+  .gender-img {
+    width: 280px;
+  }
+  .black {
+    height: 280px;
+    width: 100%;
+  }
+}
 @media (max-width: 992px) {
   .team-logo {
     width: 150px;
@@ -102,7 +124,7 @@ body {
     width: 65%;
     height: 320px;
     padding: 30px;
-    margin-left: 40px;
+    margin-left: 110px;
     display: block;
   }
   .gender-img {
@@ -124,7 +146,7 @@ body {
     width: 70%;
     height: 300px;
     padding: 30px;
-    margin-left: 40px;
+    margin-left: 70px;
     display: block;
   }
   .team-info-card h1,
