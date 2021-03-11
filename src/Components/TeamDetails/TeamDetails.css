@@ -103,7 +103,7 @@ body {
     height: 320px;
     padding: 30px;
     margin-left: 170px;
-    display: block;
+    display: flex;
   }
   .gender-img {
     width: 150px;
