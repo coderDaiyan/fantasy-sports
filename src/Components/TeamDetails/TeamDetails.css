@@ -56,15 +56,18 @@ body {
     left: 250px;
   }
   .team-info-card {
-    width: 85%;
+    width: 65%;
+    height: 320px;
+    padding: 30px;
     margin-left: 40px;
+    display: block;
   }
   .gender-img {
     width: 150px;
   }
   .black {
     height: 230px;
-    width: 652px;
+    width: 620px;
   }
 }
 @media (max-width: 500px) {
@@ -75,8 +78,11 @@ body {
     left: 160px;
   }
   .team-info-card {
-    width: 85%;
+    width: 70%;
+    height: 300px;
+    padding: 30px;
     margin-left: 40px;
+    display: block;
   }
   .team-info-card h1,
   h4 {
