@@ -24,4 +24,4 @@ Technologies used in this Project mentioned below:
 
 ## Live Site Link
 
-[Click Here](https://choosealicense.com/licenses/mit/)
+[Click Here](https://soccer-mania-daiyan.netlify.app/)
