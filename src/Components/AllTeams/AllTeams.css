@@ -23,9 +23,7 @@
   .stadium h2 {
     position: absolute;
     top: 80px;
-    left: 105px;
-    font-size: 45px;
-    color: white;
+    left: 550px;
   }
 }
 @media (max-width: 1032px) {
@@ -71,14 +69,19 @@
   .stadium h2 {
     position: absolute;
     top: 80px;
-    left: 105px;
-    font-size: 45px;
-    color: white;
+    left: 170px;
   }
   .all-teams {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
     background-color: #222f3e;
+  }
+}
+@media (max-width: 500px) {
+  .stadium h2 {
+    position: absolute;
+    top: 80px;
+    left: 100px;
   }
 }
