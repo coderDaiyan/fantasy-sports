@@ -19,7 +19,7 @@ const AllTeams = () => {
     <>
       <div className="stadium">
         <img className="stadium-bg" src={StadiumImg} alt="" />
-        <h2>Soccer Mania</h2>
+        <h2>Fantasy Sports</h2>
       </div>
       <div className="all-teams">
         {first15.map((team) => (
